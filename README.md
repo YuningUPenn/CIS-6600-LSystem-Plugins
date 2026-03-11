@@ -29,3 +29,7 @@ For homework 3, this part contains several different settings. First of all, ins
 In this part, instead of doing LSystem in Maya, the code implements a Houdini LSystem Plugin. Although Houdini already contains a Houdini plugin, this is still a good practice about how we may create a Houdini plugin. About the implementation, it contains the UI to set the grammar file and parameters to generate the LSystem. For special modification, I have also allowed input geometry to as a source to form the branches of the LSystem.
 
 ![hw4](./screenshots/hw4.png)
+
+---
+
+PS: hw4 does not have .vs file directly included, not sure what will happen but be careful if reusing resources. All initial zipped files included, may try to use that if reusing in need.

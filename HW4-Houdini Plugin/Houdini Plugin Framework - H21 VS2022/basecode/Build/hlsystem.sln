@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{116C3C79-CC8B-3185-A363-2DC603904C86}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D6828813-4A9E-3E75-83D3-4756580B2C6D} = {D6828813-4A9E-3E75-83D3-4756580B2C6D}
+		{C9E227CC-5D1C-37B3-B412-FDEE74930C26} = {C9E227CC-5D1C-37B3-B412-FDEE74930C26}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vcxproj", "{D6828813-4A9E-3E75-83D3-4756580B2C6D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hlsystem", "hlsystem.vcxproj", "{C9E227CC-5D1C-37B3-B412-FDEE74930C26}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D6828813-4A9E-3E75-83D3-4756580B2C6D} = {D6828813-4A9E-3E75-83D3-4756580B2C6D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{116C3C79-CC8B-3185-A363-2DC603904C86}.Release|x64.ActiveCfg = Release|x64
+		{D6828813-4A9E-3E75-83D3-4756580B2C6D}.Release|x64.ActiveCfg = Release|x64
+		{D6828813-4A9E-3E75-83D3-4756580B2C6D}.Release|x64.Build.0 = Release|x64
+		{C9E227CC-5D1C-37B3-B412-FDEE74930C26}.Release|x64.ActiveCfg = Release|x64
+		{C9E227CC-5D1C-37B3-B412-FDEE74930C26}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE32EB61-5429-3E39-9252-54C93EAEF315}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

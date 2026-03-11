@@ -1,0 +1,24 @@
+﻿  Building Custom Rule D:/Study Materials/UPenn/Spring 2026/CIS 6600/HW4-Houdini Plugin/Houdini Plugin Framework - H21 VS2022/basecode/CMakeLists.txt
+  LSystem.cpp
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW4-Houdini Plugin\Houdini Plugin Framework - H21 VS2022\basecode\src\matrix.h(157,8): warning C5308: Modifying reserved macro name '_MSC_EXTENSIONS' may cause undefined behavior
+  (compiling source file '../src/LSystem.cpp')
+  
+  LSYSTEMPlugin.C
+  Deprecated in Houdini 13.0. Use SYS_Math.h instead.
+  main.cpp
+  vec.cpp
+  Generating Code...
+     Creating library D:/Study Materials/UPenn/Spring 2026/CIS 6600/HW4-Houdini Plugin/Houdini Plugin Framework - H21 VS2022/basecode/Build/Release/hlsystem.lib and object D:/Study Materials/UPenn/Spring 2026/CIS 6600/HW4-Houdini Plugin/Houdini Plugin Framework - H21 VS2022/basecode/Build/Release/hlsystem.exp
+  hlsystem.vcxproj -> C:\Users\lenovo\Documents\houdini21.0\dso\hlsystem.dll
+  Copying hlsystem.dll to CUSTOM_DSO_PATH directory
+  Error copying file (if different) from "D:/Study Materials/UPenn/Spring 2026/CIS 6600/HW4-Houdini Plugin/Houdini Plugin Framework - H21 VS2022/basecode/Build/bin/Release/hlsystem.dll" to "C:\Users\lenovo\Documents\houdini21.0\dso".
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: The command "setlocal
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/Study Materials/UPenn/Spring 2026/CIS 6600/HW4-Houdini Plugin/Houdini Plugin Framework - H21 VS2022/basecode/Build/bin/Release/hlsystem.dll" C:\Users\lenovo\Documents\houdini21.0\dso
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmErrorLevel
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: exit /b %1
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmDone
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :VCEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :VCEnd" exited with code 1.

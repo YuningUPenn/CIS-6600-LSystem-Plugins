@@ -1,0 +1,10 @@
+^D:\STUDY MATERIALS\UPENN\SPRING 2026\CIS 6600\HW4-HOUDINI PLUGIN\HOUDINI PLUGIN FRAMEWORK - H21 VS2022\BASECODE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Study Materials/UPenn/Spring 2026/CIS 6600/HW4-Houdini Plugin/Houdini Plugin Framework - H21 VS2022/basecode" "-BD:/Study Materials/UPenn/Spring 2026/CIS 6600/HW4-Houdini Plugin/Houdini Plugin Framework - H21 VS2022/basecode/Build" --check-stamp-file "D:/Study Materials/UPenn/Spring 2026/CIS 6600/HW4-Houdini Plugin/Houdini Plugin Framework - H21 VS2022/basecode/Build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
