@@ -1,0 +1,60 @@
+// ============================== 
+// LSystemGUI.mel
+// GUI for controlling LSystemCmd
+// ==============================
+
+global proc LSystemGUI(){
+	if (`window -exists LSystemWin`){
+		deleteUI LSystemWin;
+	}
+
+	window -title "Call LSystem Command" LSystemWin;
+	columnLayout -adjustableColumn true;
+
+	textFieldButtonGrp -label "Grammar File" -buttonLabel "Browse" grammarFile;
+	textFieldButtonGrp -e -bc "browseGrammarFile" grammarFile;
+	scrollField -editable true -wordWrap true -text "" grammarText;
+	intFieldGrp -label "Iterations" -value1 3 iterCount;
+	floatSliderGrp -label "Step Size" -field true -minValue 0.1 -maxValue 10.0 -value 1.0 stepSize;
+	floatSliderGrp -label "Angle" -field true -minValue 0.0 -maxValue 180.0 -value 90.0 angleVal;
+
+	button -label "Create L-System" -c "runLSystemCmd";
+	showWindow;
+}
+
+global proc browseGrammarFile() {
+	string $files[] = `fileDialog2 -fileMode 1 -okCaption "Select" -dialogStyle 2`;
+	if (size($files) > 0) {
+		string $filename = $files[0];
+		textFieldButtonGrp -e -text $filename grammarFile;
+
+		int $fileId = `fopen $filename "r"`;
+		string $content = "";
+		if ($fileId != 0){
+			string $line;
+			while (!`feof $fileId`) {
+				$line = `fgetline $fileId`;
+				$content += ($line + "\n");
+			}
+			fclose $fileId;
+		}
+		scrollField -e -text $content grammarText;
+	}
+}
+
+global proc runLSystemCmd() {
+	float $s = `floatSliderGrp -q -value stepSize`;
+	float $a = `floatSliderGrp -q -value angleVal`;
+	int $i = `intFieldGrp -q -value1 iterCount`;
+	string $g = `textFieldButtonGrp -q -text grammarFile`;
+	string $gText = `scrollField -q -text grammarText`;
+
+	print ("[MEL] Grammar File: " + $g + "\n");
+	print ("[MEL] Iterations: " + $i + "\n");
+	print ("[MEL] Step Size: " + $s + "\n");
+	print ("[MEL] Angle: " + $a + "\n");
+
+	string $cmd = ("LSystemCmd -s " + $s + " -a " + $a + " -g \"" + $g + "\" -i " + $i);
+	print ("[MEL] Executing: " + $cmd + "\n");
+	eval($cmd);
+}

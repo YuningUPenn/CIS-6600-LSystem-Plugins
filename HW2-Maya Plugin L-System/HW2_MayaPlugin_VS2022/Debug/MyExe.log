@@ -1,0 +1,8 @@
+﻿  LSystem.cpp
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW2-Maya Plugin L-System\HW2_MayaPlugin_VS2022\matrix.h(157,8): warning C5308: Modifying reserved macro name '_MSC_EXTENSIONS' may cause undefined behavior
+  (compiling source file 'LSystem.cpp')
+  
+  main.cpp
+  vec.cpp
+  Generating Code...
+  MyExe.vcxproj -> D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW2-Maya Plugin L-System\HW2_MayaPlugin_VS2022\bin\LSystemd.exe

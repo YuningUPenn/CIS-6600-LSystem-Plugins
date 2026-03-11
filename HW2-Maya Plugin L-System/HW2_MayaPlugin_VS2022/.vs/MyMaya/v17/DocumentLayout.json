@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study Materials\\UPenn\\Spring 2026\\CIS 6600\\HW2-Maya Plugin L-System\\HW2_MayaPlugin_VS2022\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{681412B0-F197-4A2F-9263-DEA2E8690146}|MyPlugin.vcxproj|D:\\Study Materials\\UPenn\\Spring 2026\\CIS 6600\\HW2-Maya Plugin L-System\\HW2_MayaPlugin_VS2022\\LSystemNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{681412B0-F197-4A2F-9263-DEA2E8690146}|MyPlugin.vcxproj|solutionrelative:LSystemNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAB3C288-5682-4E53-ACC8-243AD97F1623}|MyExe.vcxproj|D:\\Study Materials\\UPenn\\Spring 2026\\CIS 6600\\HW2-Maya Plugin L-System\\HW2_MayaPlugin_VS2022\\LSystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CAB3C288-5682-4E53-ACC8-243AD97F1623}|MyExe.vcxproj|solutionrelative:LSystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681412B0-F197-4A2F-9263-DEA2E8690146}|MyPlugin.vcxproj|D:\\Study Materials\\UPenn\\Spring 2026\\CIS 6600\\HW2-Maya Plugin L-System\\HW2_MayaPlugin_VS2022\\LSystemNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{681412B0-F197-4A2F-9263-DEA2E8690146}|MyPlugin.vcxproj|solutionrelative:LSystemNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681412B0-F197-4A2F-9263-DEA2E8690146}|MyPlugin.vcxproj|D:\\Study Materials\\UPenn\\Spring 2026\\CIS 6600\\HW2-Maya Plugin L-System\\HW2_MayaPlugin_VS2022\\LSystem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{681412B0-F197-4A2F-9263-DEA2E8690146}|MyPlugin.vcxproj|solutionrelative:LSystem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681412B0-F197-4A2F-9263-DEA2E8690146}|MyPlugin.vcxproj|D:\\Study Materials\\UPenn\\Spring 2026\\CIS 6600\\HW2-Maya Plugin L-System\\HW2_MayaPlugin_VS2022\\LSystemCmd.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{681412B0-F197-4A2F-9263-DEA2E8690146}|MyPlugin.vcxproj|solutionrelative:LSystemCmd.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681412B0-F197-4A2F-9263-DEA2E8690146}|MyPlugin.vcxproj|D:\\Study Materials\\UPenn\\Spring 2026\\CIS 6600\\HW2-Maya Plugin L-System\\HW2_MayaPlugin_VS2022\\LSystemCmd.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{681412B0-F197-4A2F-9263-DEA2E8690146}|MyPlugin.vcxproj|solutionrelative:LSystemCmd.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681412B0-F197-4A2F-9263-DEA2E8690146}|MyPlugin.vcxproj|D:\\Study Materials\\UPenn\\Spring 2026\\CIS 6600\\HW2-Maya Plugin L-System\\HW2_MayaPlugin_VS2022\\PluginMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{681412B0-F197-4A2F-9263-DEA2E8690146}|MyPlugin.vcxproj|solutionrelative:PluginMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681412B0-F197-4A2F-9263-DEA2E8690146}|MyPlugin.vcxproj|D:\\Study Materials\\UPenn\\Spring 2026\\CIS 6600\\HW2-Maya Plugin L-System\\HW2_MayaPlugin_VS2022\\cylinder.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{681412B0-F197-4A2F-9263-DEA2E8690146}|MyPlugin.vcxproj|solutionrelative:cylinder.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "cylinder.cpp",
+              "DocumentMoniker": "D:\\Study Materials\\UPenn\\Spring 2026\\CIS 6600\\HW2-Maya Plugin L-System\\HW2_MayaPlugin_VS2022\\cylinder.cpp",
+              "RelativeDocumentMoniker": "cylinder.cpp",
+              "ToolTip": "D:\\Study Materials\\UPenn\\Spring 2026\\CIS 6600\\HW2-Maya Plugin L-System\\HW2_MayaPlugin_VS2022\\cylinder.cpp",
+              "RelativeToolTip": "cylinder.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-02T06:28:39.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LSystem.h",
+              "DocumentMoniker": "D:\\Study Materials\\UPenn\\Spring 2026\\CIS 6600\\HW2-Maya Plugin L-System\\HW2_MayaPlugin_VS2022\\LSystem.h",
+              "RelativeDocumentMoniker": "LSystem.h",
+              "ToolTip": "D:\\Study Materials\\UPenn\\Spring 2026\\CIS 6600\\HW2-Maya Plugin L-System\\HW2_MayaPlugin_VS2022\\LSystem.h",
+              "RelativeToolTip": "LSystem.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-02T05:34:22.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LSystemNode.h",
+              "DocumentMoniker": "D:\\Study Materials\\UPenn\\Spring 2026\\CIS 6600\\HW2-Maya Plugin L-System\\HW2_MayaPlugin_VS2022\\LSystemNode.h",
+              "RelativeDocumentMoniker": "LSystemNode.h",
+              "ToolTip": "D:\\Study Materials\\UPenn\\Spring 2026\\CIS 6600\\HW2-Maya Plugin L-System\\HW2_MayaPlugin_VS2022\\LSystemNode.h",
+              "RelativeToolTip": "LSystemNode.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-02T04:18:46.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LSystemNode.cpp",
+              "DocumentMoniker": "D:\\Study Materials\\UPenn\\Spring 2026\\CIS 6600\\HW2-Maya Plugin L-System\\HW2_MayaPlugin_VS2022\\LSystemNode.cpp",
+              "RelativeDocumentMoniker": "LSystemNode.cpp",
+              "ToolTip": "D:\\Study Materials\\UPenn\\Spring 2026\\CIS 6600\\HW2-Maya Plugin L-System\\HW2_MayaPlugin_VS2022\\LSystemNode.cpp",
+              "RelativeToolTip": "LSystemNode.cpp",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-02T04:20:58.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LSystem.cpp",
+              "DocumentMoniker": "D:\\Study Materials\\UPenn\\Spring 2026\\CIS 6600\\HW2-Maya Plugin L-System\\HW2_MayaPlugin_VS2022\\LSystem.cpp",
+              "RelativeDocumentMoniker": "LSystem.cpp",
+              "ToolTip": "D:\\Study Materials\\UPenn\\Spring 2026\\CIS 6600\\HW2-Maya Plugin L-System\\HW2_MayaPlugin_VS2022\\LSystem.cpp",
+              "RelativeToolTip": "LSystem.cpp",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAAANEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-02T03:29:02.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PluginMain.cpp",
+              "DocumentMoniker": "D:\\Study Materials\\UPenn\\Spring 2026\\CIS 6600\\HW2-Maya Plugin L-System\\HW2_MayaPlugin_VS2022\\PluginMain.cpp",
+              "RelativeDocumentMoniker": "PluginMain.cpp",
+              "ToolTip": "D:\\Study Materials\\UPenn\\Spring 2026\\CIS 6600\\HW2-Maya Plugin L-System\\HW2_MayaPlugin_VS2022\\PluginMain.cpp",
+              "RelativeToolTip": "PluginMain.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAEMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-01T04:43:04.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LSystemCmd.h",
+              "DocumentMoniker": "D:\\Study Materials\\UPenn\\Spring 2026\\CIS 6600\\HW2-Maya Plugin L-System\\HW2_MayaPlugin_VS2022\\LSystemCmd.h",
+              "RelativeDocumentMoniker": "LSystemCmd.h",
+              "ToolTip": "D:\\Study Materials\\UPenn\\Spring 2026\\CIS 6600\\HW2-Maya Plugin L-System\\HW2_MayaPlugin_VS2022\\LSystemCmd.h",
+              "RelativeToolTip": "LSystemCmd.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-01T04:15:58.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LSystemCmd.cpp",
+              "DocumentMoniker": "D:\\Study Materials\\UPenn\\Spring 2026\\CIS 6600\\HW2-Maya Plugin L-System\\HW2_MayaPlugin_VS2022\\LSystemCmd.cpp",
+              "RelativeDocumentMoniker": "LSystemCmd.cpp",
+              "ToolTip": "D:\\Study Materials\\UPenn\\Spring 2026\\CIS 6600\\HW2-Maya Plugin L-System\\HW2_MayaPlugin_VS2022\\LSystemCmd.cpp",
+              "RelativeToolTip": "LSystemCmd.cpp",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAWwDAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-01T03:43:20.684Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
