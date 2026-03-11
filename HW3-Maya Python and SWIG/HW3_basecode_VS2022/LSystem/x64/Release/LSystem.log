@@ -1,0 +1,161 @@
+﻿  Performing Custom Build Tools
+LSystem.h(62): warning 362: operator= ignored
+LSystem.h(73): warning 325: Nested class not currently supported (Turtle ignored)
+vec.h(89): warning 362: operator= ignored
+vec.h(94): warning 389: operator[] ignored (consider using %extend)
+vec.h(95): warning 389: operator[] ignored (consider using %extend)
+vec.h(137): warning 362: operator= ignored
+vec.h(142): warning 389: operator[] ignored (consider using %extend)
+vec.h(143): warning 389: operator[] ignored (consider using %extend)
+vec.h(193): warning 362: operator= ignored
+vec.h(194): warning 389: operator[] ignored (consider using %extend)
+vec.h(195): warning 389: operator[] ignored (consider using %extend)
+matrix.h(229): warning 362: operator= ignored
+matrix.h(310): warning 325: Nested struct not currently supported (base_mat ignored)
+matrix.h(708): warning 361: operator! ignored
+LSystem.i(14): warning 453: Can't apply (std::vector< std::vector< float > > &INOUT). No typemaps are defined.
+vec.h(103): warning 503: Can't wrap 'operator -' unless renamed to a valid identifier.
+vec.h(104): warning 503: Can't wrap 'operator +' unless renamed to a valid identifier.
+vec.h(105): warning 503: Can't wrap 'operator -' unless renamed to a valid identifier.
+vec.h(106): warning 503: Can't wrap 'operator *' unless renamed to a valid identifier.
+vec.h(107): warning 503: Can't wrap 'operator *' unless renamed to a valid identifier.
+vec.h(108): warning 503: Can't wrap 'operator *' unless renamed to a valid identifier.
+vec.h(109): warning 503: Can't wrap 'operator /' unless renamed to a valid identifier.
+vec.h(110): warning 503: Can't wrap 'operator ^' unless renamed to a valid identifier.
+vec.h(111): warning 503: Can't wrap 'operator ==' unless renamed to a valid identifier.
+vec.h(112): warning 503: Can't wrap 'operator !=' unless renamed to a valid identifier.
+vec.h(153): warning 503: Can't wrap 'operator -' unless renamed to a valid identifier.
+vec.h(154): warning 503: Can't wrap 'operator +' unless renamed to a valid identifier.
+vec.h(155): warning 503: Can't wrap 'operator -' unless renamed to a valid identifier.
+vec.h(156): warning 503: Can't wrap 'operator *' unless renamed to a valid identifier.
+vec.h(157): warning 503: Can't wrap 'operator *' unless renamed to a valid identifier.
+vec.h(158): warning 503: Can't wrap 'operator *' unless renamed to a valid identifier.
+vec.h(159): warning 503: Can't wrap 'operator /' unless renamed to a valid identifier.
+vec.h(160): warning 503: Can't wrap 'operator ^' unless renamed to a valid identifier.
+vec.h(161): warning 503: Can't wrap 'operator ==' unless renamed to a valid identifier.
+vec.h(162): warning 503: Can't wrap 'operator !=' unless renamed to a valid identifier.
+vec.h(179): warning 503: Can't wrap 'operator <<' unless renamed to a valid identifier.
+vec.h(199): warning 503: Can't wrap 'operator -' unless renamed to a valid identifier.
+vec.h(200): warning 503: Can't wrap 'operator +' unless renamed to a valid identifier.
+vec.h(201): warning 503: Can't wrap 'operator -' unless renamed to a valid identifier.
+vec.h(202): warning 503: Can't wrap 'operator *' unless renamed to a valid identifier.
+vec.h(203): warning 503: Can't wrap 'operator *' unless renamed to a valid identifier.
+vec.h(204): warning 503: Can't wrap 'operator *' unless renamed to a valid identifier.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8065: Custom build for item "LSystem.i" succeeded, but specified output "d:\study materials\upenn\spring 2026\cis 6600\hw3-maya python and swig\hw3_basecode_vs2022\bin\lsystem.py" has not been created. This may cause incremental build to work incorrectly.
+  LSystem.cpp
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(157,8): warning C5308: Modifying reserved macro name '_MSC_EXTENSIONS' may cause undefined behavior
+  (compiling source file 'LSystem.cpp')
+  
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\LSystem.cpp(52,29): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+  LSystem_wrap.cpp
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(157,8): warning C5308: Modifying reserved macro name '_MSC_EXTENSIONS' may cause undefined behavior
+  (compiling source file 'LSystem_wrap.cpp')
+  
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(236,44): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LSystem_wrap.cpp')
+      D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(236,44):
+      the template instantiation context (the oldest one first) is
+          D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(218,7):
+          while compiling class template 'math::matrix'
+  
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(237,50): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LSystem_wrap.cpp')
+  
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(244,44): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LSystem_wrap.cpp')
+  
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(245,44): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LSystem_wrap.cpp')
+  
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(246,44): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LSystem_wrap.cpp')
+  
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(249,45): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LSystem_wrap.cpp')
+  
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(260,43): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LSystem_wrap.cpp')
+  
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(261,19): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LSystem_wrap.cpp')
+  
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(262,19): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LSystem_wrap.cpp')
+  
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(263,25): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LSystem_wrap.cpp')
+  
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(264,19): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LSystem_wrap.cpp')
+  
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(266,38): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LSystem_wrap.cpp')
+  
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(447,47): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LSystem_wrap.cpp')
+  
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(457,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LSystem_wrap.cpp')
+  
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(519,41): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LSystem_wrap.cpp')
+  
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(532,41): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LSystem_wrap.cpp')
+  
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(556,41): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LSystem_wrap.cpp')
+  
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(589,42): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LSystem_wrap.cpp')
+  
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(614,51): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LSystem_wrap.cpp')
+  
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(623,51): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LSystem_wrap.cpp')
+  
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(649,51): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LSystem_wrap.cpp')
+  
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(666,44): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LSystem_wrap.cpp')
+  
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(673,51): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LSystem_wrap.cpp')
+  
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(680,50): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LSystem_wrap.cpp')
+  
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(704,30): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LSystem_wrap.cpp')
+  
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(712,17): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LSystem_wrap.cpp')
+  
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(759,41): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LSystem_wrap.cpp')
+  
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(888,23): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LSystem_wrap.cpp')
+  
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(941,42): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LSystem_wrap.cpp')
+  
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(975,23): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LSystem_wrap.cpp')
+  
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(990,17): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LSystem_wrap.cpp')
+  
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(1165,70): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LSystem_wrap.cpp')
+  
+D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\matrix.h(1173,70): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LSystem_wrap.cpp')
+  
+  vec.cpp
+  Generating Code...
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+     Creating library D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\\bin\_LSystem.lib and object D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\\bin\_LSystem.exp
+  LSystem.vcxproj -> D:\Study Materials\UPenn\Spring 2026\CIS 6600\HW3-Maya Python and SWIG\HW3_basecode_VS2022\bin\_LSystem.pyd
