@@ -2,9 +2,7 @@
 
 This is a backup summary of the CIS 6600 plugin homework. All the four homeworks are using C++ to write plugins for either Maya or Houdini. Here are the demo and descriptions about the plugin.
 
-<video src="./HW3-Maya Python and SWIG/5d.mp4" controls></video>
-
-[Or click here to watch the demo](./HW3-Maya%20Python%20and%20SWIG/5d.mp4)
+![video demo](https://drive.google.com/file/d/1IHvBtbskf_MHM3fxHy0f_W6Y0Mc4TF2Z/view?usp=sharing)
 
 ## Homework 1
 
@@ -14,7 +12,7 @@ The homework 1 part is a practice to get familiar with Maya plugin. It contains 
 
 The homework 2 part contains the plugin that implements the basic LSystem Maya plugin, and also a .MEL script that can create a GUI for the LSystem to import grammer file and set parameters to create LSystem structure.
 
-
+![hw2](./screenshots/hw2.png)
 
 ## Homework 3
 
