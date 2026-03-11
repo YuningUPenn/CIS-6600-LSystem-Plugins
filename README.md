@@ -2,7 +2,7 @@
 
 This is a backup summary of the CIS 6600 plugin homework. All the four homeworks are using C++ to write plugins for either Maya or Houdini. Here are the demo and descriptions about the plugin.
 
-![video demo](https://drive.google.com/file/d/1IHvBtbskf_MHM3fxHy0f_W6Y0Mc4TF2Z/view?usp=sharing)
+[click for video demo](https://drive.google.com/file/d/1IHvBtbskf_MHM3fxHy0f_W6Y0Mc4TF2Z/view?usp=sharing)
 
 ## Homework 1
 
